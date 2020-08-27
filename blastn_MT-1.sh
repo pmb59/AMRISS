@@ -5,12 +5,9 @@ files=$(ls *fasta)
 
 for FILE in  $(echo $files) ; do
 
-    head -n50  ${FILE} > temp_${FILE} 
+    head -n20  ${FILE} > temp_${FILE} 
 
-    echo BLASTn_results_${FILE}.txt 
-
-    blastn -db nt -query  temp_${FILE}  -out BLASTn_results_${FILE}.txt  -remote   -max_target_seqs 10
-
+    blastn -db nt -query  temp_${FILE}  -out BLASTn_results_${FILE}.txt  -remote  -max_target_seqs 10
 
     #rm temp_${FILE} 
 
