@@ -20,7 +20,7 @@ for FILE in $(echo $files) ; do
 
     blastn -db nt -query  temp_${FILE}  -out BLASTn_results_${FILE}.txt -num_threads 16 -max_target_seqs 10
 
-    #rm temp_${FILE} 
+    rm temp_${FILE} 
 
 done
 
