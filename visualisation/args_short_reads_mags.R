@@ -6,8 +6,8 @@ L <- list.files(path = ".", pattern = "_FLT_.out.mapping.ARG", all.files = FALSE
            full.names = FALSE, recursive = FALSE,
            ignore.case = FALSE, include.dirs = FALSE, no.. = FALSE)
 
-cnames <-  c('ARG',	'query_start',	'query_end',	'read_id',	'predicted_ARG_class'	,'best_hit'	,
-          'probability',	'identity',	'alignment_length',	'alignment_bitscore',	'alignment_evalue',	'counts')
+cnames <-  c('ARG', 'query_start', 'query_end', 'read_id', 'predicted_ARG_class' ,'best_hit',
+           'probability', 'identity', 'alignment_length', 'alignment_bitscore', 'alignment_evalue', 'counts')
 
 for (i in 1:length(L) ){
   x <- read.table(L[i], head=TRUE)
