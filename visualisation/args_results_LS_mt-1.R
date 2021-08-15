@@ -26,7 +26,7 @@ M <- matrix(data=NA, ncol=length(Iso), nrow=length(Anti) )
 
 for( j in 1:length(Iso) ){
     for( k in 1:length(Anti) ){    
-        temp <- ggdata [ which(as.character( ggdata$predicted_ARG_class ) == Anti[k]  )  , ]
+        temp <- ggdata [ which(as.character( ggdata$predicted_ARG_class ) == Anti[k] ) , ]
         M[k,j] <- length(    which(  temp$isolate == Iso[j]  ) )
         rm(temp)
     }
@@ -42,19 +42,15 @@ meta2 <- read.csv('MT-1_metadata.csv', header = TRUE)
 for( j in 1:length(Iso) ){
     temp  <- which( as.character(meta1$sample) == paste0("ORF_", Iso[j]) ) 
     temp2 <- which( as.character(meta2$sample) == Iso[j]) 
-    if (length(temp)>0){
-        m1[j] <- as.character( meta1$Species[temp] )
-    }
-    if (length(temp2)>0){
-        m2[j] <- as.character( meta2$DESCRIPTION[temp2] )
-    }
+    if (length(temp)>0 ){ m1[j] <- as.character( meta1$Species[temp] ) }
+    if (length(temp2)>0 ){ m2[j] <- as.character( meta2$DESCRIPTION[temp2] ) }
     rm(temp,temp2)
 }
 colnames(M) <- paste0( m1," (", m2,")")
 
 
 column_ha = HeatmapAnnotation( bar1 = anno_barplot( colSums(M) ))  
-column_haBottom = HeatmapAnnotation( species = m1   , annotation_legend_param = list( species = list( labels=unique(sort(m1)), ncol = 1 ))  )  
+column_haBottom = HeatmapAnnotation( species = m1, annotation_legend_param = list( species = list( labels=unique(sort(m1)), ncol = 1 )) )  
 row_ha = rowAnnotation(foo2 = anno_barplot(rowSums(M), which = "row")   )
 
 pdf('fig3.pdf', width=30, height = 9)
