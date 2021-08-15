@@ -18,7 +18,7 @@ for (i in 1:length(L) ){
   if(i==1){ ggdata <- x }
   if(i!=1){ ggdata <- rbind(ggdata, x ) }
 }
-# remove miltidrug class
+# remove multidrug class
 ggdata <- ggdata [which(ggdata$predicted_ARG_class != 'multidrug' ) , ]
 
 # barplot 1
