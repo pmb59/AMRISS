@@ -13,9 +13,9 @@ for (i in 1:length(L) ){
   x <- read.table(L[i], head=TRUE)
   colnames(x) <- cnames 
   x$sample <- strsplit( L[i], split= "_FLT_.out.mapping.ARG"  ) [[1]]
-  x$Flight <- strsplit( strsplit( L[i], split= "_FLT_.out.mapping.ARG"  ) [[1]] , split="_")[[1]][1] 
-  x$location <- strsplit( strsplit( L[i], split= "_FLT_.out.mapping.ARG"  ) [[1]] , split="_")[[1]][2] 
-  if(i==1){ ggdata <- x}
+  x$Flight <- strsplit( strsplit( L[i], split= "_FLT_.out.mapping.ARG"  ) [[1]], split="_")[[1]][1] 
+  x$location <- strsplit( strsplit( L[i], split= "_FLT_.out.mapping.ARG"  ) [[1]], split="_")[[1]][2] 
+  if(i==1){ ggdata <- x }
   if(i!=1){ ggdata <- rbind(ggdata, x ) }
 }
 # remove miltidrug class
@@ -53,4 +53,3 @@ ggsave('barplot2_without_multidrug.pdf', width=9, height = 5)
 color_scale <- data.frame(COL, sort(unique(ggdata$predicted_ARG_class )) )
 barplot(1:nrow(color_scale), col=COL, names.arg = D$sort.unique.ggdata.predicted_ARG_class..,las=2)
 write.csv(color_scale, file='colorscale.csv', row.names = F)
-
