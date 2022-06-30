@@ -12,14 +12,12 @@
 
 files=$(ls *fasta)
 
-for FILE in $(echo $files) ; do
+for FILE in $(echo $files); do
 
- head -n250  ${FILE} > temp_${FILE} 
+    head -n250 ${FILE} >temp_${FILE}
 
- blastn -db nt -query  temp_${FILE}  -out BLASTn_results_${FILE}.txt -num_threads 16 -max_target_seqs 10
+    blastn -db nt -query temp_${FILE} -out BLASTn_results_${FILE}.txt -num_threads 16 -max_target_seqs 10
 
- rm temp_${FILE} 
+    rm temp_${FILE}
 
 done
-
-
