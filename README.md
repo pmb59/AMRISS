@@ -11,3 +11,19 @@ https://doi.org/10.1101/2022.02.07.479455
 
 - comment at The Century of Biology, [Space Microbes](https://centuryofbio.substack.com/p/space-microbes)  by Elliot Hershberg.
 
+#### Publication
+https://doi.org/10.1186/s40168-022-01332-w
+
+```
+@article{amrisss,	
+  doi = {10.1186/s40168-022-01332-w},	
+  url = {https://doi.org/10.1186/s40168-022-01332-w},	
+  year = 2022,	
+  month = {aug},		
+  author = {Pedro Madrigal and Nitin K. Singh and Jason M. Wood and Elena Gaudioso and F{\'{e}}lix Hern{\'{a}}ndez-del-Olmo and Christopher E. Mason and Kasthuri Venkateswaran and Afshin Beheshti},	
+  title = {Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome},	
+  journal = {Microbiome},
+  volume = {10},	
+  number = {134},	
+  }
+```
