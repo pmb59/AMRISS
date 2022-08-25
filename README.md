@@ -24,6 +24,6 @@ https://doi.org/10.1186/s40168-022-01332-w
   title = {Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome},	
   journal = {Microbiome},
   volume = {10},	
-  number = {134},	
+  number = {134}
   }
 ```
