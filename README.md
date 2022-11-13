@@ -29,3 +29,19 @@ https://doi.org/10.1186/s40168-022-01332-w
   number = {134}
   }
 ```
+
+#### Links
+
+[Pubmed](https://pubmed.ncbi.nlm.nih.gov/35999570/)
+
+[NASA GeneLab publications](https://genelab.nasa.gov/publications)
+
+[NASA Science Microbiology Program](https://science.nasa.gov/biological-physical/programs/space-biology/microbiology/publications)
+
+[The Century of Biology, Space Microbes](https://centuryofbio.substack.com/p/space-microbes) blog
+
+[TRISH Publications](https://www.bcm.edu/academic-centers/space-medicine/translational-research-institute/research/publications), Translational Research Institute for Space Health
+
+[Aeronautics and space microbiomes](https://www.biomedcentral.com/collections/aerospacemicro) article collection
+
+[Youtube](https://www.youtube.com/watch?v=AqgVQ9NkyO8)
