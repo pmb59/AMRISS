@@ -44,6 +44,6 @@ https://doi.org/10.1186/s40168-022-01332-w
 
 [Aeronautics and space microbiomes](https://www.biomedcentral.com/collections/aerospacemicro) article collection
 
-[Youtube](https://www.youtube.com/watch?v=AqgVQ9NkyO8)
-
-[Vimeo](https://vimeo.com/741181886)
+Video: _Antibiotic resistance in space: Machine learning characterization of bacteria on the ISS_
+- [Youtube](https://www.youtube.com/watch?v=AqgVQ9NkyO8)
+- [Vimeo](https://vimeo.com/741181886)
