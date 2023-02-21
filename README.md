@@ -1,6 +1,6 @@
 # AMR @ ISS
 
-### Deep learning-based detection of Antimicrobial Resistance at the International Space Station
+## Deep learning-based detection of Antimicrobial Resistance at the International Space Station
 
 This repository contains scripts for the analysis of Antimicrobial Resistance (AMR) on metagenome-assembled genomes and ISS Microbial Tracking-1 (MT-1) datasets.
 
@@ -13,7 +13,7 @@ https://doi.org/10.1101/2022.02.07.479455
 - comment at The Century of Biology, [Space Microbes](https://centuryofbio.substack.com/p/space-microbes)  by Elliot Hershberg.
 -->
 
-#### Publication
+### Publication
 https://doi.org/10.1186/s40168-022-01332-w
 
 ```
@@ -30,7 +30,7 @@ https://doi.org/10.1186/s40168-022-01332-w
   }
 ```
 
-#### Links
+### Links
 
 [Pubmed](https://pubmed.ncbi.nlm.nih.gov/35999570/)
 
@@ -43,3 +43,7 @@ https://doi.org/10.1186/s40168-022-01332-w
 [TRISH Publications](https://www.bcm.edu/academic-centers/space-medicine/translational-research-institute/research/publications), Translational Research Institute for Space Health
 
 [Aeronautics and space microbiomes](https://www.biomedcentral.com/collections/aerospacemicro) article collection
+
+[International Space Station—Microbial Observatory of Pathogenic Viruses, Bacteria, and Fungi (ISS-MOP) Project](https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1663)
+
+[List of Archived ISS Publications 2022](https://www.nasa.gov/sites/default/files/atoms/files/card_9_list_pubs_ahr_2022_012923.pdf)
