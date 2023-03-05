@@ -30,20 +30,24 @@ https://doi.org/10.1186/s40168-022-01332-w
   }
 ```
 
-### Links
+### Other project references and information
 
-[Pubmed](https://pubmed.ncbi.nlm.nih.gov/35999570/)
+- [Pubmed](https://pubmed.ncbi.nlm.nih.gov/35999570/)
 
-[NASA GeneLab publications](https://genelab.nasa.gov/publications)
+- [NASA GeneLab publications](https://genelab.nasa.gov/publications)
 
-[NASA Science Microbiology Program](https://science.nasa.gov/biological-physical/programs/space-biology/microbiology/publications)
+- [NASA Science Microbiology Program](https://science.nasa.gov/biological-physical/programs/space-biology/microbiology/publications)
 
-[The Century of Biology, Space Microbes](https://centuryofbio.substack.com/p/space-microbes) blog
+- [The Century of Biology, Space Microbes](https://centuryofbio.substack.com/p/space-microbes) blog
 
-[TRISH Publications](https://www.bcm.edu/academic-centers/space-medicine/translational-research-institute/research/publications), Translational Research Institute for Space Health
+- [TRISH Publications](https://www.bcm.edu/academic-centers/space-medicine/translational-research-institute/research/publications), Translational Research Institute for Space Health
 
-[Aeronautics and space microbiomes](https://www.biomedcentral.com/collections/aerospacemicro) article collection
+- [Aeronautics and space microbiomes](https://www.biomedcentral.com/collections/aerospacemicro) article collection
 
-[International Space Station—Microbial Observatory of Pathogenic Viruses, Bacteria, and Fungi (ISS-MOP) Project](https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1663)
+- [International Space Station—Microbial Observatory of Pathogenic Viruses, Bacteria, and Fungi (ISS-MOP) Project](https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1663)
 
-[List of Archived ISS Publications 2022](https://www.nasa.gov/sites/default/files/atoms/files/card_9_list_pubs_ahr_2022_012923.pdf)
+- [List of Archived ISS Publications 2022](https://www.nasa.gov/sites/default/files/atoms/files/card_9_list_pubs_ahr_2022_012923.pdf)
+
+- Video 'Antibiotic resistance in space: Machine learning characterization of bacteria on the ISS': 
+  - [Vimeo](https://vimeo.com/741181886)
+  - [YouTube](https://www.youtube.com/watch?v=AqgVQ9NkyO8)
