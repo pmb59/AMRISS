@@ -51,3 +51,4 @@ https://doi.org/10.1186/s40168-022-01332-w
 - Video 'Antibiotic resistance in space: Machine learning characterization of bacteria on the ISS': 
   - [Vimeo](https://vimeo.com/741181886)
   - [YouTube](https://www.youtube.com/watch?v=AqgVQ9NkyO8)
+  - [Video Byte (Research Square)](https://doi.org/10.21203/rs.3.rs-2819037/v1)
